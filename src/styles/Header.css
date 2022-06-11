@@ -1,0 +1,39 @@
+header {
+   display: flex;
+   margin: 0.9rem auto;
+   width: 48%;
+}
+
+.Logo {
+   height: 66px;
+}
+
+.Searcher__Bar {
+   align-content: center;
+   background-image: url(../img/search.png);
+   background-position: 0.6rem;
+   background-repeat: no-repeat;
+   background-size: 0.9rem;
+   border: 1px #cacaca solid;
+   border-radius: 2rem 0 0 2rem;
+   box-sizing: border-box;
+   color: #8f8a9a;
+   height: 39px;
+   justify-items: center;
+   margin: auto 0 auto 1.5rem;
+   outline: none;
+   padding-left: 2.1rem;
+   width: 630px;
+}
+
+.Searcher__Button {
+   margin: auto 0 auto -1px;
+   background-color: #9290e8;
+   border: none;
+   border-radius: 0 2rem 2rem 0;
+   height: 39px;
+   width: 84px;
+   justify-items: center;
+   align-content: center;
+   color: #fff;
+}

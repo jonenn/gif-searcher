@@ -1,0 +1,14 @@
+section {
+   width: 48%;
+   margin: auto;
+}
+
+ul {
+   margin: 0;
+   padding: 0;
+}
+
+.gif__result {
+   width: 33%;
+   margin: 0.06rem;
+}

@@ -1,0 +1,17 @@
+footer {
+   margin: 0.9rem;
+   margin-left: 2.7rem;
+}
+
+a {
+   color: #8f8a9a;
+   font-size: 21px;
+}
+
+a::after {
+   content: " | ";
+}
+
+a:last-child::after {
+   content: "";
+}

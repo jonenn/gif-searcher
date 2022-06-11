@@ -1,20 +1,21 @@
 import { useState } from "react";
 import { AddCategory } from "./components/AddCategory";
+import { GifGrid } from "./components/GifGrid";
 
 const App = () => {
-   const [categories, setCategories] = useState(["Cat", "Dog", "Bunny"]);
+   const [categories, setCategories] = useState(["Cat"]);
    // const handleAdd = () => {
    //    setCategories([...categories, "Turtle"]);
    // };
 
    return (
       <>
-         <AddCategory setCategories={setCategories} />
+         <h1>GIF Searcher</h1>
          <hr />
          <ol>
-            {categories.map((category) => {
-               return <li key={category}>{category}</li>;
-            })}
+            {categories.map((category) => (
+               <GifGrid key={category} category={category}></GifGrid>
+            ))}
          </ol>
          <button>Add</button>
       </>
